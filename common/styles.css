@@ -1,7 +1,7 @@
 /* Navbar padding */
 .navbar {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 220px;
+  padding-right: 220px;
 }
 
 /* Responsive adjustments */
@@ -16,4 +16,9 @@
   .navbar .nav-link {
     font-size: 14px;
   }
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
