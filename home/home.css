@@ -1,3 +1,24 @@
+/* Navbar CSS effect */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar text color */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: #f0f0f0; /* Slightly lighter color on hover */
+}
+
+/* Navbar background on scroll */
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background color on scroll */
+}
+
 /* Background Image Section with Gradient Overlay */
 .background-image {
   height: 40vh;
@@ -43,10 +64,13 @@
 }
 
 .alert {
-  color: rgb(132, 93, 60);
-  background-color: rgb(230, 221, 199);
   transition: box-shadow 0.3s;
   &:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   }
+}
+
+.color-palette {
+  color: rgb(132, 93, 60);
+  background-color: rgb(230, 221, 199);
 }
