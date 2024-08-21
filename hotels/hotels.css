@@ -2,6 +2,16 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.hotel-heading{
+  color: rgb(132,93,60);
+  text-align: center;
+}
+
+.hotel-intro{
+  color: rgb(132,93,60);
+  text-align: center;
+}
+
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: white;
@@ -81,3 +91,4 @@
   color: rgb(230, 221, 199);
   background-color: rgb(132, 93, 60);
 }
+
