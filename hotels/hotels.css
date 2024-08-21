@@ -6,3 +6,58 @@
 .navbar .nav-link {
   color: white;
 }
+
+.card-container {
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.card-img {
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* Ensure the height matches your image height */
+}
+
+.card-img img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  transition: transform 0.5s ease, left 0.5s ease, opacity 0.5s ease;
+}
+
+.card-img img.active {
+  left: 0;
+  opacity: 1;
+}
+
+.card-img img.prev {
+  left: -100%;
+  opacity: 1;
+}
+
+.btn-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 10px;
+}
+
+.btn-next {
+  right: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
