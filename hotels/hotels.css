@@ -25,6 +25,7 @@
   max-width: 400px;
   margin: auto;
   position: relative;
+
 }
 
 .card-img {
@@ -74,6 +75,7 @@
 
 .card-body {
   text-align: center;
+ 
 }
 
 .card-text {
