@@ -7,6 +7,10 @@
   color: white;
 }
 
+.container {
+  padding-top: 90px;
+}
+
 .card-container {
   max-width: 400px;
   margin: auto;
@@ -60,4 +64,20 @@
 
 .card-body {
   text-align: center;
+}
+
+.card-text {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.expanded {
+  height: auto;
+}
+
+.btn-see-more {
+  float: right;
+
+  color: rgb(230, 221, 199);
+  background-color: rgb(132, 93, 60);
 }

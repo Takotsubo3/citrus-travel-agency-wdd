@@ -22,3 +22,9 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+
+.color-palette {
+  color: rgb(132, 93, 60);
+  background-color: rgb(230, 221, 199);
+}
