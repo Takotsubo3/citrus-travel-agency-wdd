@@ -69,3 +69,8 @@
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   }
 }
+
+.common-footer{
+  text-align: center;
+  font-weight: bold;
+}
